@@ -1,0 +1,20 @@
+language: android
+jdk: oraclejdk7
+env:
+  global:
+  - TERM=dumb
+  matrix:
+   - ANDROID_TARGET=android-23
+android:
+  components:
+    - platform-tools
+    - tools
+    - android-23
+    - build-tools-23.0.2
+    - extra
+    - add-on
+    - extra-android-m2repository
+    - extra-android-support
+
+script:
+    cd Watchtower/ && ./gradlew build -PdisablePreDex --info

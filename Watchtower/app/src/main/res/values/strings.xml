@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Watchtower</string>
+    <string name="random_joke_text_view_placeholder">Random Joke</string>
+</resources>
