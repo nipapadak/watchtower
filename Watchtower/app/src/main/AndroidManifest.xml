@@ -29,16 +29,6 @@
 
         <!-- Activities End -->
 
-        <!-- Services Start -->
-
-        <service
-            android:name=".service.JokePollingService"
-            android:enabled="true"
-            android:exported="false" >
-        </service>
-
-        <!-- Services End -->
-
     </application>
 
 </manifest>
